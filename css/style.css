@@ -225,3 +225,9 @@ input:focus, textarea:focus, select:focus{
     margin-bottom:2vh;
     border-radius: 10px;
 }
+
+.current-session-stats .pulse {
+    background:#D8072F;
+    color:white;
+    display:flex;
+}
