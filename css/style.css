@@ -19,6 +19,7 @@ html::-webkit-scrollbar {
 h1,h2,h3,h4,h5,h6 {
     text-shadow: none;
     margin-top:2em;
+    margin-bottom:0.5em;
 }
 
 .wrapper {
@@ -93,7 +94,8 @@ header p {
 
 nav {
     width:70vw;
-    box-shadow: 0px 4px 13px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+    border:1px solid white;
     height: 90px;
     border-radius: 25px;
     background:whitesmoke;
@@ -181,3 +183,45 @@ input:focus, textarea:focus, select:focus{
 
 }
 
+/* SESSION */
+/*_____________ */
+
+.video-box {
+    width:100%;
+    height:auto;
+    box-shadow: 0px 3px 6px  rgba(0, 0, 0, 0.4);
+    border-radius:5px;
+}
+
+.video-box video {
+    width:100%;
+    height:auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.video-box .session-info {
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.video-box .session-info p {
+
+    font-family: 'HitandRun!-Regular';
+}
+
+.current-session-stats {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:auto;
+    margin-top:5vh;
+}
+
+.current-session-stats .pulse, .current-session-stats .calories  {
+    width:100%;
+    height:10vh;
+    background:#71726e;
+    margin-bottom:2vh;
+    border-radius: 10px;
+}
