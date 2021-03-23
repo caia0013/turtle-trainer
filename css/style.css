@@ -62,7 +62,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 html {
-    min-height:150vh;
 }
 
 
@@ -80,6 +79,10 @@ header {
     color:white;
     border-bottom:1px solid #6fa404;
     font-size: 1.2em;
+}
+
+header p:first-child.no-bg {
+    background: none;
 }
 
 header p:first-child {
@@ -106,20 +109,21 @@ header p a {
 
 .maskot {
     width:100%;
+    max-width: 355px;
     min-height: 80px;
     background: url(img/maskot.png) no-repeat;
-    background-size: cover;
-    background-position-x: center;
+    background-position-x: left;
     background-position-y: center;
     position:relative;
     margin-top:20px;
+    background-size: cover;
 }
 .maskot p {
     position: absolute;
-    right:0;
+    left:120px;
     width:240px;
     font-family: 'Maxim Sans';
-    padding:20px;
+    padding:15px;
 }
 
 
@@ -150,17 +154,16 @@ header p a {
     background-color: #71726e;
     margin-left:10px;
     border-radius:15px;
+    overflow:hidden;
 }
 
-.large-card:last-child {
-    min-width:20px;
-    background:none;
-}
+
 
 .small-card {
     height:150px;
     background-color: #71726e;
     border-radius:15px;
+    overflow:hidden;
 
 }
 
@@ -171,7 +174,6 @@ nav {
     padding-top:10px;
     background:whitesmoke;
     margin:0 auto;
-
     pointer-events:all;
 }
 
@@ -202,7 +204,7 @@ nav ul li.active {
 
 .outer-nav-bottom {
     pointer-events: none;
-    position:fixed;
+    position:sticky;
     bottom:0vh;
     width:100%;
 }
@@ -359,4 +361,47 @@ input:focus, textarea:focus, select:focus{
 
 .box-shadow {
     box-shadow: 0px 3px 18px  rgba(0, 0, 0, 0.20);
+}
+
+
+.small-card a{
+    display: block;
+    height: 175px;
+    overflow: hidden;
+    position: relative; 
+}
+
+.small-card img{
+   position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    float: left;
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.small-card h3{
+    color: white;
+    margin-left: 7px;
+    justify-content: center;
+    margin-top: 120px;
+    position: absolute;
+}
+
+img{
+    width: 100%;
+    
+}
+
+.large-card {
+    width:100%;
+    height:200px;
+    background-color: #71726e;
+    border-radius:15px;
+}
+
+.large-card:last-child {
 }
