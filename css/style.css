@@ -83,6 +83,7 @@ h1 {
 }
 .wrapper {
     padding:0 10px;
+    padding-bottom:20px;
 }
 
 * {
@@ -200,6 +201,9 @@ header p a {
     text-decoration: none;
 }
 
+.box-shadow-2 {
+    box-shadow:0px 3px 6px rgba(0, 0, 0, 0.4);
+}
 
 .maskot {
     width:100%;
@@ -224,8 +228,10 @@ header p a {
 
 .scroll-vertical {
     overflow-y:scroll;
+    overflow-x: visible;
     display:flex;
-    margin:0 -10px;
+    padding: 10px 0;
+    margin: -10px -10px;
     padding-right:50px;
 }
 
