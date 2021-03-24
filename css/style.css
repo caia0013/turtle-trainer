@@ -77,7 +77,9 @@ h1,h2,h3,h4,h5,h6 {
 
 
 h1 {
-    font-size: 5em;
+    font-size: 10em;
+    color:white;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .wrapper {
     padding:0 10px;
@@ -150,8 +152,11 @@ body iframe {
     height:812px;
     margin:10vh auto;
     display:block;
-    box-shadow: 0 0 100px 80px rgba(0, 0, 0, 0.20);
+    box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.20);
     border-radius: 40px;
+    border:5px solid #578102;
+    
+    box-sizing: content-box;
 }
 
 header {
