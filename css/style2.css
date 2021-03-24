@@ -96,21 +96,7 @@
     left: 0;
   }
    
-  .maskot {
-    background-image: url(img/maskot.png);
-    width: 100%;
-    max-width: 355px;
-    height: 80px;
-    background-size: cover;
-    position: relative;
-  }
-  .maskot p {
-    position: absolute;
-    left: 120px;
-    padding: 20px;
-    width: 240px;
-  }
-   
+
   .text {
     height: 100%;
     width: 100%;
