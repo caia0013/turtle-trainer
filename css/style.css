@@ -65,6 +65,13 @@ html {
 }
 
 
+body iframe {
+    width:375px;
+    height:812px;
+    margin:10vh auto;
+    display:block;
+}
+
 header {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
