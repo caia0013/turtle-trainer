@@ -307,7 +307,7 @@ nav ul li.active {
     background-image: url('img/logo2.png') ;
     margin: 50px auto 0 auto;
     width:300px;
-    height:300px;
+    height:350px;
     background-size:cover;
 
 }
@@ -317,19 +317,7 @@ nav ul li.active {
     flex-direction: column;
 }
 
-/* body{
-    background-image: url('img/logo2.png') ;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-position: center center;
-    background-size: auto auto;
-    margin-left: 0;
-    margin-right: 0;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover
-} */
+
 
 /* #E5E5E5 */ 
 .name-input {
