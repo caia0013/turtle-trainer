@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="25" viewBox="0 0 41 25">
+  <g id="dumbbell" transform="translate(2 1.731)">
+    <rect id="Rectangle_53" data-name="Rectangle 53" width="15" height="5" transform="translate(11 8.269)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <rect id="Rectangle_54" data-name="Rectangle 54" width="6" height="21" rx="3" transform="translate(26 0.269)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <rect id="Rectangle_55" data-name="Rectangle 55" width="5" height="15" rx="2.5" transform="translate(32 3.269)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <rect id="Rectangle_56" data-name="Rectangle 56" width="6" height="21" rx="3" transform="translate(11 21.269) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <rect id="Rectangle_57" data-name="Rectangle 57" width="5" height="15" rx="2.5" transform="translate(5 18.269) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>
